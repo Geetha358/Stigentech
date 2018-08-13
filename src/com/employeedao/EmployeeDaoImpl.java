@@ -69,12 +69,5 @@ public class EmployeeDaoImpl implements EmployeeDao {
 			ResultSet result = stm.executeQuery(sql);
 			
 			return result;
-			
-			
-			
-			
-			
-			
-			
-		}
+					}
 }
