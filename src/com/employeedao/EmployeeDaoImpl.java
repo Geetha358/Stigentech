@@ -67,7 +67,7 @@ public class EmployeeDaoImpl implements EmployeeDao {
 			
 			Statement stm = con.createStatement();
 			ResultSet result = stm.executeQuery(sql);
-			
+			System.out.println("executed");
 			return result;
 					}
 }
