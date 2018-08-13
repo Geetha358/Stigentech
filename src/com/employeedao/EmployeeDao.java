@@ -12,7 +12,4 @@ public interface EmployeeDao {
 	
 	public ResultSet getEmployeeDetails(int id) throws SQLException;
 	
-	public ResultSet getAllEmployeeDetails() throws SQLException;
-
-
-}
+	public ResultSet getAllEmployeeDetails() throws SQLException;}
